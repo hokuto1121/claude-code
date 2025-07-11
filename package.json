@@ -1,0 +1,20 @@
+{
+  "name": "doctor-schedule-generator",
+  "version": "1.0.0",
+  "description": "医師当直表生成システム",
+  "main": "index.js",
+  "scripts": {
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "dev:frontend": "cd frontend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev": "npm run dev:backend & npm run dev:frontend",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start": "npm run build:frontend && npm run start:backend"
+  },
+  "keywords": ["医師", "当直表", "スケジューリング", "React", "Node.js"],
+  "author": "Claude Code",
+  "license": "MIT"
+}
